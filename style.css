@@ -1,23 +1,32 @@
-img{
-    height: 92px;
+img{    /*estilo tag imagem*/
+    height: 92px;   /*Altura*/
 }
 
-a{
-    text-decoration: none;
-    color: #1f1f1f;
-    font-size: 13px;
-    font-family: sans-serif;
+a{      /*tag link/ancora*/
+    text-decoration: none;  /*tirou a decoração de texto*/
+    color: #1f1f1f; /*cor do texto*/
+    font-size: 13px;    /*tamanho da fonte*/
+    font-family: sans-serif;    /*Tipo/Familia da fonte*/
 }
 
-.botao-login{
-    background-color: #1a73e8;
-    color: white;
-    padding: 13px 12px;
-    font-weight: 500;
-    border-radius: 40px;
+.botao-login{   /*Tag do Botão de Login*/
+    background-color: #1a73e8;  /*cor do fundo*/
+    color: white;   /*cor da fonte*/
+    padding: 13px 12px; /*Espaçamento interno*/
+    font-weight: 500;   /*Peso da fonte*/
+    border-radius: 40px;    /*Raio da borda (Curvatura)*/
 }
 
-.icones-produtos{
-    width:24px ;
-    fill: #444746;
+.icones-produtos{   /*Icones de produtos*/
+    width:24px ;    /*largura*/
+    fill: #444746;  /*Preenchimento*/
+}
+
+footer{     /*seletor da tag Footer/Rodapé*/
+    background-color: #f2f2f2;  /*Cor de Fundo*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
