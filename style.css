@@ -27,7 +27,9 @@ footer{     /*seletor da tag Footer/Rodapé*/
 }
 
 .caixa-rodape{
+    display: flex;
     padding: 15px 30px; /*Espaçamento interno*/
+    justify-content: space-between;
 }
 
 .caixa-rodape--borda{
@@ -39,4 +41,17 @@ footer{     /*seletor da tag Footer/Rodapé*/
     padding: 0; /*Espaçamento interno*/
     font-family: Arial, sans-serif; /*Tipo/Familia da fonte*/
     font-size: 13px;    /*tamanho da fonte*/
+}
+
+header{
+    display: flex;
+    align-items: center;    /*Hoizontal, a direita no espaço disponivel*/
+    justify-content: flex-end;  /*itens alinhados ao centro do espaço disponivel*/
+    gap: 15px;      /*espaçamento entre os elementos dentro do header*/
+    padding: 9px 14px;     /*espaçamento ao redor do header*/
+}
+
+.caixa-links{
+    display: flex;
+    gap: 30px;  /*espaçamento entre os itens da div caixa-links*/
 }
